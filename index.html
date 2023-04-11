@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha Tecnica</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script/script.js"></script>
+</head>
+<body>
+    <!-- TITULOS Y SUBTITULO PRINCIPAL -->
+    
+    <div class="titulo">
+        <h1>Ficha Tecnica</h1>
+    </div>
+    <div class="subtitle">
+        <h2>Caracteristicas Del Producto</h2>
+    </div>
+
+    <!-- INGRESO DE LOS PRODUCTOS INPUTS Y NOMBRE DE LO QUE SE PIDE -->
+
+    <div class="contenido">
+        <p>Nombre del producto: <input type="text" placeholder="Ingrese nombre del producto" id="nombreProducto"></p>
+        <p>Linea de produccion: <input type="text" placeholder="Ingrese linea de produccion" id="lineaProduccion"></p>
+        <p>Versiones del producto: <input type="number" id="versionesProducto" placeholder="1.1"></p>
+        <p>Cantidad de equipos: <input type="number" id="cantidadEquipos" placeholder="Cantidad"></p>
+        <p>Valor: <input type="number" id="valor" placeholder="  $$$$"></p>
+        <p>Cajas registradoras: <input type="number" id="" placeholder=""></p>
+        <p>Valor: <input type="number" id="" placeholder="  $$$$"></p>
+        <p>Escaneres de codigo de barras: <input type="number" id="" placeholder=""></p>
+        <p>Valor: <input type="number" id="" placeholder="  $$$$"></p>
+        <p>Basculas: <input type="number" id="" placeholder=""></p>
+        <p>Valor: <input type="number" id="" placeholder="  $$$$"></p>
+        <p>Terminales de pago (pos): <input type="number" id="" placeholder=""></p>
+        <p>Valor: <input type="number" id="" placeholder="  $$$$"></p>
+        <p>Etiquetas y codigo de barras: <input type="number" id="" placeholder=""></p>
+        <p>Valor: <input type="number" id="" placeholder="  $$$$"></p>
+        <p>Conexion a internet: <input type="number" id="" placeholder=""></p>
+        <p>Valor: <input type="number" id="" placeholder="  $$$$"></p>
+    </div>    
+
+    <!-- BOTON enviar -->
+
+    <button onclick="verFicha()" class="button">Enviar Ficha Tecnica</button>
+
+
+    <!-- RESULTADOS QUE ARROJA AL FINAL DE LA FICHA TECNICA -->
+
+    <p id="producto"></p>
+    <p id="linea"></p>
+    <p id="verProduct"></p>
+    <p id="cantidad"></p>
+    <p id="valor"></p>
+    <p id="total"></p>
+
+</body>
+</html>

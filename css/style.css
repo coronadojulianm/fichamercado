@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'PT Serif', serif;
+}
+.titulo{
+    background-color: black;
+    height: 6.875em;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;;
+}
+.titulo h1{
+    color: white;
+    font-size: 4.5em;
+}
+.subtitle{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 1.5em;
+}
+.contenido{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.contenido p{
+    font-size: 1.3em;
+    /* line-height: 2.2em; */
+}
+.button{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
+}
+input{
+    border: 2px solid #ccc;
+    border-color: #696868;
+    border-radius: 10px;
+    height: 25px;
+    float: right;
+    margin-right: 60%
+}
+h3{
+    margin-left: 20px;
+}
