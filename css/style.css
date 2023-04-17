@@ -40,6 +40,9 @@ body{
     border-radius: 5px;
     cursor: pointer; 
 }
+.espaciofinal{
+    margin-bottom: 100px;
+}
 input{
     border: 2px solid #ccc;
     border-color: #696868;
